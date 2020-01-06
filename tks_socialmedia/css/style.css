@@ -1,0 +1,35 @@
+.twitter{
+	background-color:#0071c7;
+}
+.insta{
+	background-color:#C13584;
+}
+.facebook{
+	background-color:#3b5998;
+}
+.linkedin{
+	background-color:#007dbb;
+}
+.whatsapp{
+	background-color:#25D366;
+}
+.linkedin:hover , .facebook:hover , .insta:hover , .twitter:hover , .whatsapp:hover{
+	width: 40px;
+	border-radius: 0px 5px 5px 0px;
+	background-color: white;
+	color:#007dbb;
+}
+.linkedin , .facebook , .insta , .twitter , .whatsapp {
+	color: white;
+	display: block;
+	width: 30px;
+	height: 40px;
+	text-align: center;
+	border:1px solid black;
+}
+.socialmedia_vak{
+	position: fixed;
+	bottom: 50px;
+	left: 0;
+	z-index: 20;
+}

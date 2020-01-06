@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.1.0" group="system" method="upgrade">
+	<name>Social media Plugin</name>
+	<author>Dylan</author>
+	<version>1.0.0</version>
+	<creationDate>December 2019</creationDate>
+	<description>Social media Plugin</description>
+	<files>
+		<filename>tks_socialmedia.xml</filename>
+		<filename plugin="tks_socialmedia">tks_socialmedia.php</filename>
+		<folder>css</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="insta" type="text" label="Url Instagram" default=""/>
+				<field name="face" type="text" label="Url Facebook" default=""/>
+				<field name="twit" type="text" label="Url Twitter" default=""/>
+				<field name="link" type="text" label="Url linkedin" default=""/>
+				<field name="text" type="text" label="Text WhatsApp" />
+				<field name="tel" required="true" type="tel" label="Phone number" />
+				<field name="font" type="number" label="Font logo" default=""/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
